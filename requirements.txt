@@ -7,7 +7,6 @@ aiosqlite==0.18.0
 alabaster==0.7.12
 altair==5.1.2
 anyio==3.5.0
-aom==3.6.0
 appdirs==1.4.4
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
