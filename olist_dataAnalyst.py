@@ -11,7 +11,7 @@ from datetime import datetime
 sns.set(style='dark')
 
 # load dataframe
-main_dir = 'd:/Tech/python/olist/olist/' # ganti dengan alamat dataframe
+main_dir = 'https://raw.githubusercontent.com/hudasf/Olist-Dashboard-Streamlit/main/olist/' # ganti dengan alamat dataframe
 cust_df = pd.read_csv(os.path.join(main_dir,'olist_customers_dataset.csv'))
 geo_df = pd.read_csv(os.path.join(main_dir,'olist_geolocation_dataset.csv'))
 orderItems_df = pd.read_csv(os.path.join(main_dir,'olist_order_items_dataset.csv'))
