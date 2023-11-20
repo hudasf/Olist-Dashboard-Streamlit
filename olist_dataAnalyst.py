@@ -13,7 +13,7 @@ sns.set(style='dark')
 # load dataframe
 main_dir = 'https://raw.githubusercontent.com/hudasf/Olist-Dashboard-Streamlit/main/olist/' # ganti dengan alamat dataframe
 cust_df = pd.read_csv(os.path.join(main_dir,'olist_customers_dataset.csv'))
-geo_df = pd.read_csv(os.path.join(main_dir,'olist_geolocation_dataset.csv'))
+# geo_df = pd.read_csv(os.path.join(main_dir,'olist_geolocation_dataset.csv'))
 orderItems_df = pd.read_csv(os.path.join(main_dir,'olist_order_items_dataset.csv'))
 orderPay_df = pd.read_csv(os.path.join(main_dir,'olist_order_payments_dataset.csv'))
 orderRev_df = pd.read_csv(os.path.join(main_dir,'olist_order_reviews_dataset.csv'))
