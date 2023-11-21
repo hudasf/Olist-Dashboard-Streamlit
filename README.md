@@ -14,3 +14,13 @@ pip install numpy pandas matplotlib seaborn streamlit babel folum
 ```
 streamlit run olist_dataAnalyst.py
 ```
+
+## Operating app
+```
+1. use date filter in sidebar for desired date range.
+2. data and graph will show accordingly.
+3. pick data to show in multi select.
+4. app will show only desired data.
+5. download data if needed.
+```
+
