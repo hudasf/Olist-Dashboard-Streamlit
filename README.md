@@ -1,13 +1,16 @@
 # Olist-Dashboard-Streamlit
 my simple project creating simple yet powerful dashboard for monitoring operational condition. with advanced filtering in showing data
 
-Dicoding Collection Dashboard ✨
-
 ## Setup environment
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
 pip install numpy pandas matplotlib seaborn streamlit babel folum
+```
+
+## Setup dataframe
+```
+change main_dir string to real path of desired data to load in pandas dataframe.
 ```
 
 ## Run steamlit app
@@ -24,3 +27,8 @@ streamlit run olist_dataAnalyst.py
 5. download data if needed.
 ```
 
+## Streamlit App Deploy Demo
+```
+demo of running app can be found in :
+https://hudasf-olist.streamlit.app/
+```
